@@ -7,20 +7,46 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonProvider.Autofac", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonProvider.Autofac.Example", "CommonProvider.Autofac.Example\CommonProvider.Autofac.Example.csproj", "{22272D30-8364-4BC6-B8C9-AE2760ED4B2C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{1B4AD5C7-9DDC-4738-BC62-0D08A67B26EC}"
+	ProjectSection(SolutionItems) = preProject
+		CommonProvider.Autofac\build_solution.bat = CommonProvider.Autofac\build_solution.bat
+		CommonProvider.Autofac\CommonProvider.Autofac.nuspec = CommonProvider.Autofac\CommonProvider.Autofac.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		DebugNET40|Any CPU = DebugNET40|Any CPU
+		DebugNET45|Any CPU = DebugNET45|Any CPU
 		Release|Any CPU = Release|Any CPU
+		ReleaseNET40|Any CPU = ReleaseNET40|Any CPU
+		ReleaseNET45|Any CPU = ReleaseNET45|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8D50981D-1E70-47EF-BCAC-154AA9090A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8D50981D-1E70-47EF-BCAC-154AA9090A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D50981D-1E70-47EF-BCAC-154AA9090A59}.DebugNET40|Any CPU.ActiveCfg = DebugNET40|Any CPU
+		{8D50981D-1E70-47EF-BCAC-154AA9090A59}.DebugNET40|Any CPU.Build.0 = DebugNET40|Any CPU
+		{8D50981D-1E70-47EF-BCAC-154AA9090A59}.DebugNET45|Any CPU.ActiveCfg = DebugNET45|Any CPU
+		{8D50981D-1E70-47EF-BCAC-154AA9090A59}.DebugNET45|Any CPU.Build.0 = DebugNET45|Any CPU
 		{8D50981D-1E70-47EF-BCAC-154AA9090A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D50981D-1E70-47EF-BCAC-154AA9090A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D50981D-1E70-47EF-BCAC-154AA9090A59}.ReleaseNET40|Any CPU.ActiveCfg = ReleaseNET40|Any CPU
+		{8D50981D-1E70-47EF-BCAC-154AA9090A59}.ReleaseNET40|Any CPU.Build.0 = ReleaseNET40|Any CPU
+		{8D50981D-1E70-47EF-BCAC-154AA9090A59}.ReleaseNET45|Any CPU.ActiveCfg = ReleaseNET45|Any CPU
+		{8D50981D-1E70-47EF-BCAC-154AA9090A59}.ReleaseNET45|Any CPU.Build.0 = ReleaseNET45|Any CPU
 		{22272D30-8364-4BC6-B8C9-AE2760ED4B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{22272D30-8364-4BC6-B8C9-AE2760ED4B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22272D30-8364-4BC6-B8C9-AE2760ED4B2C}.DebugNET40|Any CPU.ActiveCfg = Debug|Any CPU
+		{22272D30-8364-4BC6-B8C9-AE2760ED4B2C}.DebugNET40|Any CPU.Build.0 = Debug|Any CPU
+		{22272D30-8364-4BC6-B8C9-AE2760ED4B2C}.DebugNET45|Any CPU.ActiveCfg = Debug|Any CPU
+		{22272D30-8364-4BC6-B8C9-AE2760ED4B2C}.DebugNET45|Any CPU.Build.0 = Debug|Any CPU
 		{22272D30-8364-4BC6-B8C9-AE2760ED4B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22272D30-8364-4BC6-B8C9-AE2760ED4B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22272D30-8364-4BC6-B8C9-AE2760ED4B2C}.ReleaseNET40|Any CPU.ActiveCfg = Release|Any CPU
+		{22272D30-8364-4BC6-B8C9-AE2760ED4B2C}.ReleaseNET40|Any CPU.Build.0 = Release|Any CPU
+		{22272D30-8364-4BC6-B8C9-AE2760ED4B2C}.ReleaseNET45|Any CPU.ActiveCfg = Release|Any CPU
+		{22272D30-8364-4BC6-B8C9-AE2760ED4B2C}.ReleaseNET45|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
