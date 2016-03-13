@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CommonProvider.Autofac</id>
+    <version>1.0.2</version>
+    <authors>Oluwaseun Opanuga</authors>
+    <owners>Oluwaseun Opanuga</owners>
+    <projectUrl>https://github.com/commonprovider/common-provider</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Integrates CommonProvider to Autofac Ioc for resolving dependencies.</description>
+    <copyright>Copyright 2015 CommonProvider</copyright>
+    <summary />
+    <language>en-US</language>
+    <tags>provider pattern strategy service extension extensibility</tags>
+
+    <dependencies>
+      <dependency id="CommonProvider" version="2.0.4"  />
+      <package id="Autofac" version="3.5.2" />
+    </dependencies>
+    
+  </metadata>
+  <files>
+    <file src="bin\ReleaseNET40\CommonProvider.Autofac.dll" target="lib\net40\CommonProvider.Autofac.dll" />
+    <file src="bin\ReleaseNET40\CommonProvider.Autofac.XML" target="lib\net40\CommonProvider.Autofac.XML" />
+    <file src="bin\ReleaseNET45\CommonProvider.Autofac.dll" target="lib\net45\CommonProvider.Autofac.dll" />
+    <file src="bin\ReleaseNET45\CommonProvider.Autofac.XML" target="lib\net45\CommonProvider.Autofac.XML" />
+  </files>
+</package>
